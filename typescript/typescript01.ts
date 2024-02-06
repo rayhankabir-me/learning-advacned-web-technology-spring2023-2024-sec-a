@@ -77,6 +77,30 @@ let studentOne = new Student(991, "Rayhan");
 studentOne.display();
 
 
+//define Employee Class
+class Employee{
+    private id: number;
+    private name: string;
+    protected age: number;
+    public isOkay: boolean;
+
+    constructor(id: number, name: string, age: number, isOkay: boolean){
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.isOkay = isOkay;
+    }
+
+    display(){
+        console.log(`ID is: ${this.id}, Name is: ${this.name}, Age is: ${this.age}, isOkay: ${this.isOkay}`);
+    }
+
+}
+
+let employeeOne = new Employee(99, "Rayhan", 22, true);
+employeeOne.display();
+
+
 
 
 
