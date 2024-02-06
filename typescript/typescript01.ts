@@ -54,8 +54,27 @@ function Adding(a:number, b:number, c?:number):number{
 console.log(Adding(2,3));
 
 //double numbers using map method
-let doubleNumbers: number[] = numbers.map(num => num * 2);
+let doubleNumbers: number[] = numbers.map((num: number) => num * 2);
 console.log(doubleNumbers);
+
+
+//introducing OOP
+class Student {
+    id: number;
+    name: string;
+    constructor(id:number, name:string) {
+        this.name = name;
+        this.id = id;
+    }
+
+    display():void{
+        console.log(`my name is: ${this.name} and my id is: ${this.id}`);
+    }
+
+}
+
+let studentOne = new Student(991, "Rayhan");
+studentOne.display();
 
 
 

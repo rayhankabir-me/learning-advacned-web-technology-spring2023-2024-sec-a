@@ -39,3 +39,16 @@ console.log(Adding(2, 3));
 //double numbers using map method
 var doubleNumbers = numbers.map(function (num) { return num * 2; });
 console.log(doubleNumbers);
+//introducing OOP
+var Student = /** @class */ (function () {
+    function Student(id, name) {
+        this.name = name;
+        this.id = id;
+    }
+    Student.prototype.display = function () {
+        console.log("my name is: ".concat(this.name, " and my id is: ").concat(this.id));
+    };
+    return Student;
+}());
+var studentOne = new Student(991, "Rayhan");
+studentOne.display();
