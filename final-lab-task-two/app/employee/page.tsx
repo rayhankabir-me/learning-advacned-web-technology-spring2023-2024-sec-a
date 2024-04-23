@@ -20,7 +20,7 @@ export default function Employee() {
         <li className="flex items-center mb-4">
           Employee 1
           <Link
-            href="/update/"
+            href="/employee/update/1"
             className="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Edit
@@ -32,7 +32,7 @@ export default function Employee() {
         <li className="flex items-center mb-4">
           Employee 2
           <Link
-            href="/update/"
+            href="/employee/update/2"
             className="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Edit
@@ -44,7 +44,7 @@ export default function Employee() {
         <li className="flex items-center mb-4">
           Employee 3
           <Link
-            href="/update/"
+            href="/employee/update/3"
             className="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           >
             Edit
